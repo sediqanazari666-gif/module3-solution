@@ -1,0 +1,81 @@
+```css
+/* GENERAL STYLES */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+#header-nav {
+    background-color: #f6d7a7;
+    border-radius: 0;
+    border: 2px solid #222;
+    margin-bottom: 25px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222 !important;
+}
+
+/* MOBILE MENU */
+
+#main-menu {
+    border-top: 1px solid #222;
+}
+
+#main-menu a {
+    text-align: center;
+    font-size: 18px;
+    color: #222;
+}
+
+/* MAIN TITLE */
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+/* MENU SECTION */
+
+.menu-section {
+    background-color: #d9d9d9;
+    padding: 20px;
+    min-height: 1000px;
+    margin-bottom: 30px;
+}
+
+.menu-section h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.menu-section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 767px) {
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .menu-section {
+        margin: 15px;
+    }
+}
+```
